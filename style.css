@@ -1,0 +1,24 @@
+body {
+    background-color:darkolivegreen;
+}
+
+#titulo-mejor{
+    background-color:black;
+    width: 1280px;
+    height: 100px;
+    text-align:center;
+}
+
+#header{
+    opacity: 100%;
+    color:white;
+}
+
+#footer{
+    opacity: 100%;
+}
+
+#laboratorios{
+
+}
+

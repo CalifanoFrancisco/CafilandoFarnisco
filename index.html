@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gishus</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="foto_ventana.png" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <header id="header">
+            <div id="titulo-mejor">
+                <h1>Laboratorio de programación orientada a objetos, HTML & bases de datos</h1>
+            </div>
+        </header>
+        <div id="laboratorio">
+            <div style="height: 30px; width: 1000px; opacity: 1;">
+                <button onclick="ProgramacionOrientadaObjetos(0)">
+                    Programacion relacionada a objetos
+                </button>
+            </div>
+            <div style="height: 30px; width: 1000px; opacity: 1;">
+                <button onclick="SoporteInformatico(0)">
+                    Taller Soporte Informatico
+                </button>
+            </div>
+            <div style="height: 30px; width: 1000px; opacity: 1;">
+                <button onclick="BaseDeDatos(0)">
+                    Taller de Base de Datos
+                </button>
+            </div>
+        </div>
+        <footer id="footer">
+            <a>uwu</a>
+        </footer>
+        <script>
+        //-------------------------------------------------------------------------------
+            let linksOOP;
+            function ProgramacionOrientadaObjetos(num){
+                links.push("https://github.com/CalifanoFrancisco/Javazzz");
+                location.replace(linksOOP[num]);
+            }
+        //-------------------------------------------------------------------------------
+            let linkSopInf;
+            function SoporteInformatico(num){
+                links.push("https://github.com/CalifanoFrancisco/SoporteInformatico");
+                location.replace(linkSopInf[num]);
+            }
+        //-------------------------------------------------------------------------------
+            let linksBaseDatos;
+            function BaseDeDatos(num){
+                links.push("https://github.com/CalifanoFrancisco/Base-de-Datos-2022");
+                location.replace(linksBaseDatos[num]);
+            }
+        //-------------------------------------------------------------------------------
+        </script>
+    </body>
+</html>
